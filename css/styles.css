@@ -57,14 +57,11 @@ li:hover {
 
 .relative {
   position: relative;
-  top: 120px;
 }
 
 .absolute {
   position: absolute;
-  bottom: 100px;
-  top: 120;
-  
+  bottom: 100px;  
 }
 
 
@@ -74,12 +71,20 @@ FONT SETUP
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
+	padding-top: 120px;
 }
 
 h1,
 .teasers_block h2,
 .strapline p {
 	font-family: "Merriweather", sans-serif;
+}
+
+h4 {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 30px;
 }
 
 /*want to target the anchor tag within the list item, list items have their own styling*/
@@ -126,11 +131,6 @@ grows to 100% width of parent*/
 GENERAL STYLES END
 *********************************/
 
-/********************************
-HEADER STYLES
-*********************************/
-
-
 
 /********************************
 HEADER STYLES 
@@ -171,12 +171,6 @@ header a {
 	color: #fff; 
 }
 
-.box h4 {
-	margin-left: 10px;
-	margin-bottom: 10px;
-	font-weight: 300;
-	font-size: 25px;
-}
 
 
 /********************************
@@ -212,7 +206,7 @@ del {
 ins {
 	border-bottom: 3px solid #FFF653;
 	text-decoration: none;
-*/}
+}
 
 /********************************
 STRAPLINE ENDS
@@ -328,18 +322,8 @@ footer {
 DEV PAGE STYLING
 ************************************/
 
-.img {
-  background-color: #C6C6C6;
-  padding: 50% 0;
-  width: 90%;
-  display: block;
-  margin: 10px;
-  text-align: center;
-  color: #999999;
-}
-
-h4 {
-margin-left: 20px;
+section .profiles {
+	padding-top: 20px;
 }
 
 .profiles  {
@@ -357,11 +341,15 @@ margin-left: 20px;
 .profiles li {
   list-style: none;
   display: inline-block;
-  width: 23%;
+  width: 24%;
   margin: .5% .5%;
   background-color: white;
   padding: 10px;
 
+}
+
+img {
+	width: 100%;
 }
 
 .skills li {
@@ -372,7 +360,7 @@ margin-left: 20px;
  color: white;
  padding: 5px  15px;
  border-radius: 50px;
- font-size: 15px;
+ font-size: 20px;
 }
 
 .skills li:first-child {
@@ -381,6 +369,8 @@ margin-left: 20px;
 
 ul .skills {
 	padding-left: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
 }
 
 
