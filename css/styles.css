@@ -39,14 +39,6 @@ Dark grey:      #999999;
 	background-color: #C6C6C6;
 }
 
-a:hover {
-		font-weight: 900;
-}
-
-li:hover {
-	font-weight: 900;
-}
-
 .fixed {
   position: fixed;
   width: 100%;
@@ -316,35 +308,29 @@ footer {
 	background-color: #000;
 	color: #fff;
 	padding: 20px 0;
+	margin-top: 20px;
 }
 
 /**********************************
 DEV PAGE STYLING
 ************************************/
 
-section .profiles {
-	padding-top: 20px;
-}
 
 .profiles  {
   padding-left: 0;
 }
 
-.profiles li:first-child {
-	margin-left: 0;
-}
-
-.profiles li:last-child {
-	margin-right: 0;
+.profiles ul {
 }
 
 .profiles li {
   list-style: none;
-  display: inline-block;
+  display: inline;
   width: 24%;
   margin: .5% .5%;
   background-color: white;
   padding: 10px;
+  float: left;
 
 }
 
@@ -352,30 +338,75 @@ img {
 	width: 100%;
 }
 
-.skills li {
- border: none;
- display: inline;
- margin: 20px auto 20px 10px;
- background-color: #696969;
- color: white;
- padding: 5px  15px;
- border-radius: 50px;
- font-size: 20px;
+figcaption {
+	font-size: 25px;
 }
 
-.skills li:first-child {
-  margin-left: 0;
+.skills {
+	overflow: hidden;
+	margin-bottom: 10px;
 }
+
+.skills li {
+	/*border: 1px solid black;
+	display: inline-block;*/
+	float: left;
+	/*background-color: #696969;
+	padding: 2px  12px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: #000;*/
+
+}
+
+.skills li a {
+	border: 1px solid black;
+	display: block;
+	background-color: #696969;
+	padding: 2px  12px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: white;
+	margin-right: 0 5px 5px 0;
+}
+
 
 ul .skills {
-	padding-left: 10px;
-	margin-bottom: 10px;
-	overflow: hidden;
+	padding-left: 0px;
+}
+
+.box.col_1 {
+	margin-left: 0;
 }
 
 
-/******************************
+/*****************************
 DEV PAGE STLYING	
-******************************
+******************************/
 
+/*****************************
+PUSEUDO CLASSES	
+******************************/
+
+
+header a:hover {
+	color: yellow;
+}
+
+.active {
+	background-color: grey;
+	vertical-align: baseline;
+}
+
+a:hover {
+		font-weight: 900;
+}
+
+li:hover {
+	font-weight: 900;
+}
+
+/*****************************
+PUSEUDO CLASSES	ENDA
+******************************/
 
