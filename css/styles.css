@@ -331,7 +331,6 @@ DEV PAGE STYLING
   background-color: white;
   padding: 10px;
   float: left;
-
 }
 
 img {
@@ -351,6 +350,8 @@ figcaption {
 	/*border: 1px solid black;
 	display: inline-block;*/
 	float: left;
+    width: auto;
+
 	/*background-color: #696969;
 	padding: 2px  12px;
 	border-radius: 100px;
@@ -360,7 +361,6 @@ figcaption {
 }
 
 .skills li a {
-	border: 1px solid black;
 	display: block;
 	background-color: #696969;
 	padding: 2px  12px;
